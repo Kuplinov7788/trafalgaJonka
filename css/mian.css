@@ -1,6 +1,6 @@
-@import './header.css';
-@import './about.css';
-@import './servise.css';
+@import url('./header.css');
+@import url('./about.css');
+@import url('./servise.css');
 
 * {
     margin: 0;
