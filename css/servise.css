@@ -1,0 +1,42 @@
+.servise-box {
+    padding-top: 91px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 61px;
+    width: 952px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.servise-in-card {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 16px;
+    width: 284px;
+}
+
+.servise-card {
+    padding: 71px 0px 31px 39px;
+    background-color: #E7E7E7;
+    border-radius: 20px;
+    width: 380px;
+    transition: 150ms all ease;
+
+    &:hover {
+        transition: 450ms all ease;
+        background-color: #5A98F2;
+        color: #fff;
+    }
+}
+
+.servise-wrapper {
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+}

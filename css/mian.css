@@ -1,0 +1,17 @@
+@import '/css/header.css';
+@import '/css/about.css';
+@import '/css/servise.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Mulish", sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    width: 75%;
+    margin: 0 auto;
+}

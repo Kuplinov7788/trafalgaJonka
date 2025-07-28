@@ -1,0 +1,29 @@
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.header-list {
+    display: flex;
+    gap: 20px;
+}
+
+.header-link {
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    opacity: 0.5;
+    color: black;
+    transition: 300ms all ease;
+
+    &:hover {
+        transition: 300ms all ease;
+        opacity: 1;
+        font-size: 20px;
+        color: #5A98F2;
+    }
+}
